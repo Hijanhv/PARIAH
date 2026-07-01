@@ -6,6 +6,8 @@
 
 ### ▶️ Live demo: **https://pariah-ten.vercel.app**
 
+<sub>Auto-deploys to Vercel on every push to `main` (project root: `app/`).</sub>
+
 Users stake real testnet **XLM** on **YES / NO** of a binary question
 (_"Will BTC close above $100k this Friday?"_). The odds aren't set by a
 bookmaker — they're derived **live from the on-chain pools**, pari-mutuel style,
