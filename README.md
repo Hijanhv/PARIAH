@@ -4,6 +4,8 @@
 
 > **Bet against the crowd. The pool doesn't lie.**
 
+### ▶️ Live demo: **https://pariah-ten.vercel.app**
+
 Users stake real testnet **XLM** on **YES / NO** of a binary question
 (_"Will BTC close above $100k this Friday?"_). The odds aren't set by a
 bookmaker — they're derived **live from the on-chain pools**, pari-mutuel style,
@@ -44,6 +46,7 @@ feed**, a **leaderboard** of stakers, **real-time progress bars**, and a
 | **Admin** | `GBMB2FZK5JTPO7AKAAHQI7VNYICAGPWCVZ5LQ64AEHF3KGLKAFGT2P2R` |
 | **Stake token** | native XLM SAC — `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` |
 | **WASM hash** | `30bc13498c6ee9101770804b8c30ccde324f267c212d9a4dc044092605b063f4` |
+| **Live app** | https://pariah-ten.vercel.app |
 
 ### Verifiable transaction hashes (contract calls)
 
