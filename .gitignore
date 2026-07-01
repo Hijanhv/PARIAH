@@ -1,0 +1,15 @@
+# Rust / Soroban
+/contract/target
+**/*.rs.bk
+
+# Node / Next
+node_modules
+.next
+out
+
+# env (local overrides; .env.example is committed)
+.env*.local
+
+# misc
+.DS_Store
+*.log
