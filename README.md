@@ -36,7 +36,14 @@ feed**, a **leaderboard** of stakers, **real-time progress bars**, and a
 | 5 | **Read + write data** | **Write:** `bet`. **Read:** `get_market` / `get_stake` polled every 5s for state sync |
 | 6 | **Event listening / state sync** | RPC `getEvents` polled every 4s → live TAPE feed + live odds recompute (`src/hooks/useEvents.ts`) |
 | 7 | **Transaction status** (pending/success/fail) | Full lifecycle tracker: `BUILDING → SIGNING → SUBMITTING → PENDING → SUCCESS/FAILED` with Stellar Expert hash link (`src/components/TxTracker.tsx`) |
-| 8 | **2+ meaningful commits** | ① contract + tests → ② multi-wallet frontend, live tape, tx tracker → ③ docs |
+| 8 | **2+ meaningful commits** | ① contract + tests → ② multi-wallet frontend, live tape, tx tracker → ③ docs (7 commits total) |
+
+### 👛 Wallet options (StellarWalletsKit multi-wallet modal)
+
+Clicking **Connect Wallet** opens the StellarWalletsKit modal listing every
+supported wallet — Freighter, xBull, Albedo, LOBSTR, Rabet, Hana, Klever:
+
+![Wallet options modal](docs/wallet-modal.png)
 
 ---
 
